@@ -1057,50 +1057,7 @@ local Button = Tab:CreateButton({
    end,
 })
 
-local Button = Tab:CreateButton({
-  Name = "INVICTUS R",
-        Action = function()
-            local args = {
-                [1] = "Input",
-                [2] = "ClockworkInvictus",
-                [3] = 8,
-                [4] = "Satelite"
 
-            }
-            game:GetService("Players").LocalPlayer.Character.Combat.RemoteEvent:FireServer(unpack(args))
-        end
-   end,
-})
-
-local Button = Tab:CreateButton({
-  Name = "INVICTUS F",
-        Action = function()
-            local args = {
-                [1] = "Input",
-                [2] = "ClockworkInvictus",
-                [3] = 25,
-                [4] = "Barrage"
-
-            }
-            game:GetService("Players").LocalPlayer.Character.Combat.RemoteEvent:FireServer(unpack(args))
-        end
-   end,
-})
-
-local Button = Tab:CreateButton({
-  Name = "INVICTUS LMB",
-        Action = function()
-            local args = {
-                [1] = "Input",
-                [2] = "ClockworkInvictus",
-                [3] = 6,
-                [4] = "Strike"
-
-            }
-            game:GetService("Players").LocalPlayer.Character.Combat.RemoteEvent:FireServer(unpack(args))
-        end
-   end,
-})
 
 local Button = Tab:CreateButton({
    Name = "Bloxy Cola LMB",
