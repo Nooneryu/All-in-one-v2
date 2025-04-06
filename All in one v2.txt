@@ -217,14 +217,14 @@ local Toggle = Tab:CreateToggle({
 while _G.loop2 do
     local args = {
         [1] = "ChangeEquipment",
-        [2] = 4289
+        [2] = 622
     }
     
     game:GetService("ReplicatedStorage").RemoteEvent:FireServer(unpack(args))
     wait() 
     local args = {
         [1] = "ChangeEquipment",
-        [2] = 4289,
+        [2] = 622,
         [3] = true
     }
     
